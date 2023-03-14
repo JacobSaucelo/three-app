@@ -21,7 +21,7 @@ export default function Model(props) {
             material={materials.Capybara_mat}
             position={[-0.43, 0.36, -0.08]}
             rotation={[-0.49, 1.3, 0.5]}
-            scale={98.55}
+            scale={300}
           />
         </group>
       </group>

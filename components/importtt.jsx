@@ -11,7 +11,11 @@ function Importtt() {
         {/* <Plant /> */}
         <Capybara />
         <ambientLight intensity={1} />
-        <OrbitControls />
+        <OrbitControls
+          autoRotate={true}
+          autoRotateSpeed={20}
+          enableZoom={false}
+        />
       </Canvas>
     </section>
   );
